@@ -69,10 +69,31 @@ We establish benchmarks with both open-source and proprietary LLMs/VLMs, analyzi
 
 If you use NTSEBench in your research, please cite:
 
-> Pranshu Pandya, Vatsal Gupta, Agney S Talwarr, Tushar Kataria, Dan Roth, and Vivek Gupta.
-> **NTSEBENCH: Cognitive Reasoning Benchmark for Vision Language Models.**
-> *Findings of the Association for Computational Linguistics: NAACL 2025*, pages 3680–3708 ([ACL Anthology][1]).
+```bibtex
+@inproceedings{pandya-etal-2025-ntsebench,
+    title = "{NTSEBENCH}: Cognitive Reasoning Benchmark for Vision Language Models",
+    author = "Pandya, Pranshu  and
+      Gupta, Vatsal  and
+      Talwarr, Agney S  and
+      Kataria, Tushar  and
+      Roth, Dan  and
+      Gupta, Vivek",
+    editor = "Chiruzzo, Luis  and
+      Ritter, Alan  and
+      Wang, Lu",
+    booktitle = "Findings of the Association for Computational Linguistics: NAACL 2025",
+    month = apr,
+    year = "2025",
+    address = "Albuquerque, New Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-naacl.204/",
+    doi = "10.18653/v1/2025.findings-naacl.204",
+    pages = "3680--3708",
+    ISBN = "979-8-89176-195-7",
+    abstract = "Cognitive textual and visual reasoning tasks, including puzzles, series, and analogies, demand the ability to quickly reason, decipher, and evaluate patterns both textually and spatially. Due to extensive training on vast amounts of human-curated data, large language models (LLMs) and vision language models (VLMs) excel in common-sense reasoning tasks, but still struggle with more complex reasoning that demands deeper cognitive understanding. We introduce NTSEBENCH, a new dataset designed to evaluate cognitive multimodal reasoning and problem-solving skills of large models. The dataset contains 2,728 multiple-choice questions, accompanied by a total of 4,642 images, spanning 26 categories. These questions are drawn from the nationwide NTSE examination in India and feature a mix of visual and textual general aptitude challenges, designed to assess intelligence and critical thinking skills beyond mere rote learning. We establish baselines on the dataset using state-of-the-art LLMs and VLMs. To facilitate a comparison between open-source and propriety models, we propose four distinct modeling strategies to handle different modalities{---}text and images{---}in the dataset instances."
+}
 
+```
 ---
 
 ## Acknowledgements
@@ -90,5 +111,4 @@ Our work builds on a rich foundation of cognitive reasoning evaluation and multi
 
 We’re excited to see how the community leverages and extends NTSEBench—feel free to open issues, contribute, or reach out with ideas!
 
-```
 
