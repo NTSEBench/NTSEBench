@@ -57,7 +57,6 @@ We establish benchmarks with both open-source and proprietary LLMs/VLMs, analyzi
    ```bash
    git clone https://github.com/NTSEBench/NTSEBench.git
    cd NTSEBench
-````
 
 2. **Install dependencies**
 
